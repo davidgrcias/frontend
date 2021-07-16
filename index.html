@@ -44,29 +44,17 @@
             <li class="nav-item" >
               <a class="nav-link" href="#services">Panel<span class="sr-only">(current)</span></a>
             </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fitur">Fitur</a>
+              </li>
             <li class="nav-item" >
-              <a class="nav-link" href = "index.html">Aplikasi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#fitur">Fitur</a>
+              <a class="nav-link" href = "#testimonials">Testimonial</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#kontak">Kontak</a>
             </li>
           </ul>
          </div>
-
-          <!--/search-right-->
-          <div class="header-search">
-            <div class='control mr-3'>
-            </div>
-            <!-- full screen form controls -->
-            <i class='icon-close fa fa-close material-icons'></i>
-            <form action="error.html" method="GET" class='search-input'>
-              <input class='input-search' placeholder='Start Typing' type='text'>
-            </form>
-          </div>
-          <!--//search-right-->
       </nav>
 
     </div>
@@ -457,6 +445,12 @@
     $(".navbar-toggler").on("click", function () {
       $("header").toggleClass("active");
     });
+    $(".fa-bars").on("click", function () {
+      $("header").toggleClass("active");
+    });
+      $(".icon-expand").on("click", function () {
+        $("header").toggleClass("active");
+      });
     $(document).on("ready", function () {
       if ($(window).width() > 991) {
         $("header").removeClass("active");

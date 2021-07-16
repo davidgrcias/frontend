@@ -3149,13 +3149,8 @@ input[type="button"].btn-block {
     text-decoration: none; }
 
 .navbar-toggler-icon {
-  display: block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%; }
+
+  }
 
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
@@ -3339,7 +3334,7 @@ input[type="button"].btn-block {
   border-color: rgba(255, 255, 255, 0.1); }
 
 .navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+}
 
 .navbar-dark .navbar-text {
   color: rgba(255, 255, 255, 0.5); }
@@ -7443,7 +7438,7 @@ a.text-dark:hover, a.text-dark:focus {
 .fa-remove:before,
 .fa-close:before,
 .fa-times:before {
-  content: "X"; }
+  content: ""; }
 
 .fa-search-plus:before {
   content: ""; }
@@ -7954,8 +7949,7 @@ a.text-dark:hover, a.text-dark:focus {
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
-  content: "+";
-  font-size: 28px;
+  content: "";
 }
 
 .fa-list-ul:before {
@@ -10160,7 +10154,6 @@ nav ul li a:hover {
   .navbar-expand-lg .navbar-nav .nav-link {
     display: block; }
   .navbar-dark .navbar-toggler-icon {
-    background-image: none;
     padding: 0;
     width: 34px;
     height: 34px;
