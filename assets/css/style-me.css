@@ -1,0 +1,172 @@
+span.check{
+  display: block;
+  border-radius: 50%;
+  color: black;
+  background: white;
+  font-size: 16px;
+  width: 26px;
+  height: 26px;
+  line-height: 27px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+p.flexself{
+  display: flex;
+  padding-top: 10px;
+}
+
+.hero-content{
+  margin-top: 10px;
+}
+
+.minustop{
+  margin-top: -80px;
+}
+
+p.tengahbawah{
+  text-align: center;
+  color: black;
+  width: 800px;
+  margin: 20px auto;
+  font-size: 1.1em;
+}
+
+p.kiribawah{
+  color: black;
+  font-size: 1.1em;
+  margin-top: 5px;
+  width: 620px;
+}
+
+.blog-info{
+  border: 2px dashed #3F3A64;
+  padding-bottom: 20px;
+}
+
+.square{
+  margin-top: 30px;
+  display: flex;
+  width: 620px;
+  flex-wrap: wrap;
+}
+
+.square .box{
+  width: 290px;
+  height: 65px;
+  line-height: 65px;
+  padding-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  background: white;
+  cursor: default;
+}
+
+span.icon-expand, span.fa-bars, span.fa, span.icon-close{
+  display: block;
+  width: 5px;
+  height: 1px;
+  background: black;
+}
+
+section#fitur{
+background: #F5F5F5;
+padding: 60px 100px;
+display: flex;
+margin: auto;
+}
+
+section#fitur{
+  align-items: center;
+}
+
+section#fitur .right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+section#fitur .right img{
+  width: 250px;
+  transition: 1.2s;
+  filter: grayscale(0.3);
+  margin-top: 30px;
+}
+
+section#fitur .right img:hover{
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+.fitur{
+}
+
+@media (max-width: 1170px){
+  section#fitur .right{
+    justify-content: flex-end;
+  }
+  section#fitur .right img{
+    width: 200px;
+  }
+}
+
+@media (max-width: 1100px){
+  .minustop{
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 991px){
+  section#fitur{
+    flex-direction: column;
+    width: 100%;
+    padding: 60px 5px 60px 20px;
+  }
+  section#fitur .left{
+    width: 100%;
+  }
+  section#fitur .left .fitur{
+    width: 100%;
+  }
+  section#fitur .right{
+    justify-content: center;
+    width: 100%;
+  }
+  .square{
+    width: 100%;
+  }
+  .square .box{
+    width: 100%;
+  }
+  p.kiribawah{
+    width: 100%;
+  }
+}
+
+@media (max-width: 740px){
+  .minustop{
+    margin-top: 0px;
+  }
+  .hero-content{
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 500px){
+  section#fitur .right img{
+    width: 150px;
+  }
+}
+
+@media (max-width: 1000px){
+    p.tengahbawah{
+      text-align: center;
+      color: black;
+      width: 100%;
+      margin-top: 20px;
+      font-size: 1.1em;
+    }
+}
